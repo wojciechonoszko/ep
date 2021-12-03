@@ -1,0 +1,30 @@
+.footer {
+    
+    padding-top: 60px;
+    background-color: #2f303a;
+    height: 605px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .footer {
+      display: flex;
+      background-color: #2f303a;
+      height: 465px;
+      padding: 0px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .footer {
+      display: flex;
+      background-color: #2f303a;
+      height: 252px;
+      margin: 0px;
+      padding: 0px;
+    }
+  }
+  
+  
+  
+  
+  

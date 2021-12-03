@@ -1,0 +1,143 @@
+.head-overlay {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/mobile-img/mobile-header.jpg");
+    background-size: cover;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    background-color: #2f303a;
+  
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .head-overlay{
+        background-image: url("../images/mobile-img/mobile-header@2x.jpg")
+      }
+    }
+
+  .head-overlay__text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 370px;
+    height: 84px;
+  
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62em;
+  
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  
+    color: #ffffff;
+  }
+
+  @media screen and (min-width: 768px) {
+    .head-overlay {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../images/tablet/tablet-header.jpg");
+      background-size: cover;
+      background-position: center, center;
+      background-repeat: no-repeat;
+      background-color: #2f303a;
+    
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .head-overlay{
+        background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../images/tablet/tablet-header@2x.jpg")
+      }
+    }
+  
+    .head-overlay__text {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin: auto;
+      width: 370px;
+      height: 84px;
+    
+      font-weight: 900;
+      font-size: 26px;
+      line-height: 1.62em;
+    
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    
+      color: #ffffff;
+    }
+  }
+
+  @media screen and (min-width:1200px) {
+    .head-overlay {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../images/img-overlay.jpg");
+      background-size: cover;
+      background-position: center, center;
+      background-repeat: no-repeat;
+      background-color: #2f303a;
+    
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .head-overlay{
+        background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../images/img-overlay@2x.jpg")
+      }
+    }
+  
+    .head-overlay__text {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin: auto;
+      width: 696px;
+      height: 120px;
+    
+      font-weight: 900;
+      font-size: 44px;
+      line-height: 1.36;
+    
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    
+      color: #ffffff;
+    }
+  }
